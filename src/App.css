@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding: 1%;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 3%;
+}
+.output{
+  font-size: 30px;
+}
+input[type=number]{
+  width: 20%;
+  padding: 1%;
+  font-size: 20px;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  column-gap: 4%;
+}
+.custom-select{
+  width: 200px;
+  background-color: #4CAF50;
+}
+option{
+  width: 100%;
+  padding: 5%;
+  background-color: dodgerblue;
+  color: black;
+  font-size: 20px;
+
+}
+select{
+  padding: 3%;
+  border-style: none;
+  margin-top: 2%;
+}
+.ThemeDiv{
+  padding: 5%;
+  border: solid dodgerblue 5px;
+  margin: 1%;
+}
